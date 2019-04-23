@@ -5,4 +5,12 @@ class App < Sinatra::Base
     "Hello, World!"
   end
 
+  get '/home' do
+    "it works"
+  end
+
+  get '/home/contact' do
+    "Nahit Abu-Nijaila\nNahit86@outlook.com"
+  end
+
 end
